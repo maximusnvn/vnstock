@@ -3,10 +3,10 @@
 # da phat hanh trong ngay thi script tu bo qua (guard trong update_data.js), khong commit trung.
 name: Auto update data
 on:
-  workflow_dispatch:
   schedule:
     - cron: '12 20 * * 1-5'
-      timezone: "Asia/Ho_Chi_minh"
+      timezone: "Asia/Ho_Chi_Minh"
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
