@@ -4,7 +4,7 @@
 name: Auto update data
 on:
   schedule:
-    - cron: '12 20 * * 1-5'
+    - cron: '12 15 * * 1-5'
       timezone: "Asia/Ho_Chi_Minh"
   workflow_dispatch:
 permissions:
